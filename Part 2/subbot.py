@@ -1,7 +1,7 @@
 import time
 from webbot import Browser
 import pyautogui # its use for keyboard inputs.
-import win32console,win32gui
+import linuxconsole,linuxgui
 
 class SubBot():
     
@@ -19,8 +19,8 @@ class SubBot():
                 self.password.append(file_passwords)
         
     def hide(self):
-        window = win32console.GetConsoleWindow()
-        win32gui.ShowWindow(window,0)
+        linux = linuxconsole.GetConsoleWindow()
+        linuxgui.ShowWindow(window,0)
         
     def main(self):
         for i in range(0,len(self.email)):
