@@ -33,7 +33,7 @@ class SubBot():
             web.type(self.password[i], into='Password' , id='passwordFieldId')
             web.click('NEXT' , tag='span') # you are logged in . woohoooo
             time.sleep(2)
-            web.go_to('youtube.com/user/PewDiePie')
+            web.go_to('youtube.com/channel/UCfHNXbRDxJhzfZnAqu9itfw')
             time.sleep(1)
             web.click('Subscribe',tag='yt-formatted-string')
             time.sleep(2)
